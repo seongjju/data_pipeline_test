@@ -91,20 +91,20 @@ ls ../data/raw/
 python src/data_ingestion/s3_uploader.py
 ```
 
-![S3 업로드](./picture1.png)
+![S3 업로드](./picture/picture1.png)
 
 **2. 데이터 처리 및 변환**
 ```bash
 python src/data_processing/etl_processor.py
 ```
 
-![데이터 처리](./picture2.png)
+![데이터 처리](./picture/picture2.png)
 
 **정제 전후 데이터 비교:**
 
 오른쪽 정제 후의 경우 `age`, `age_group` 필드가 추가된 것을 확인할 수 있다.
 
-![정제 전후 비교](./picture3.png)
+![정제 전후 비교](./picture/picture3.png)
 
 **3. 오케스트레이션 파이프라인 실행**
 ```bash
@@ -128,11 +128,11 @@ prefect server start
 - 플로우 실행 내역, 태스크, 로그 확인
 - 성능 지표 및 에러 모니터링
 
-![파이프라인 실행](./picture4.png)
+![파이프라인 실행](./picture/picture4.png)
 
 2분 단위로 실행되는 것을 확인할 수 있다.
 
-![스케줄 실행](./picture5.png)
+![스케줄 실행](./picture/picture5.png)
 
 ---
 
@@ -154,13 +154,13 @@ docker exec -it data-pipeline-data-pipeline-1 python data-pipeline/src/orchestra
 
 **도커로 실행:**
 
-![도커 배포](./picture6.png)
+![도커 배포](./picture/picture6.png)
 
 **파이프라인 재실행 결과:**
 
 기존 버킷을 삭제하고 도커로 파이프라인을 재실행하면 현재 시간으로 새로운 버킷이 생성된다.
 
-![새 버킷 생성](./picture7.png)
+![새 버킷 생성](./picture/picture7.png)
 
 ## Sample Data Overview
 

@@ -15,3 +15,5 @@ venv/
 # Configuration files
 config/
 .prefectignore
+
+*.DS_Store
