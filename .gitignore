@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Environment files
+.env
+
+
+# PDF files
+*.pdf
+
+# Configuration files
+config/
+.prefectignore
