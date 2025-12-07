@@ -175,4 +175,8 @@ pipeline processes realistic e-commerce data:
 | **reviews.csv** | 1,500+ | Customer reviews and ratings |
 
 
+## 참고 자료
 
+이 프로젝트는 아래 Udemy 강의를 참고하여 진행되었습니다.
+
+https://www.udemy.com/course/data-engineering-bootcamp/
